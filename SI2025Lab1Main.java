@@ -64,7 +64,7 @@ class TaskManager {
 
     // 1. Remove a task by name
     public void removeTask(String name) {
-        // TODO: Implement removal logic
+        tasks.removeIf(task -> task.getName().equalsIgnoreCase(name));
     }
 
     // 2. Find all completed tasks
@@ -75,7 +75,7 @@ class TaskManager {
 
     // 3. List tasks sorted by name
     public void sortTasksByName() {
-        // TODO: Implement sorting logic
+        tasks.sort(Comparator.comparing(Task::getName));
     }
 
     // 4. Sort tasks by priority
@@ -127,10 +127,26 @@ public class SI2025Lab1Main {
 
         // MISSING: Calls to the new methods that will be implemented
 	
-	System.out.println("---Tasks before filtering---");	
+        System.out.println("---Tasks before removing one---");
         manager.printTasks();
-	
-	System.out.println("--- Tasks in 'Work' category---");
+
+	      manager.removeTask("Submit assignment");
+
+	      System.out.println("---Tasks after removing one---");
+        manager.printTasks();
+
+	      System.out.println("---Tasks before sorting---");
+        manager.printTasks();
+
+        manager.sortTasksByName();
+
+        System.out.println("---Tasks after sorting---");
+        manager.printTasks();
+        
+		    System.out.println("---Tasks before filtering---");	
+        manager.printTasks();
+      
+	      System.out.println("--- Tasks in 'Work' category---");
         manager.filterByCategory("Work").forEach(System.out::println);
     }
 }
