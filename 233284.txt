@@ -1,0 +1,76 @@
+Дел 2:
+
+13.
+git fetch origin
+From https://github.com/martinkorchovski/SI_2025_Lab1_233284
+ * [new branch]      1-remove-a-task-by-name -> origin/1-remove-a-task-by-name
+ * [new branch]      3-list-tasks-sorted-by-name -> origin/3-list-tasks-sorted-by-name
+* [new branch]      5-filter-tasks-by-category -> origin/5-filter-tasks-by-category
+
+14.
+git checkout 1-remove-a-task-by-name
+    -||-     3-list-tasks-sorted-by-name
+     -||-     5-filter-tasks-by-category
+
+
+
+15. //
+
+16.
+git commit -m “Implement the first issue”
+	 -||-       “Implement the second issue”
+	-||-	  “Implement the third issue”
+
+17.
+git push origin 1-remove-a-task-by-name
+    -||-        3-list-tasks-sorted-by-name
+    -||-        5-filter-tasks-by-category		
+
+18. //
+
+19. //
+
+20. //
+
+21. //
+
+22.
+git checkout master
+git merge 5-filter-tasks-by-category
+23.
+git pull origin master
+
+24. //
+
+25.
+nano logs.txt
+nano 233284.txt
+git add .
+git commit -m “Final commit”
+git push origin master
+
+26.
+git pull origin master
+
+
+
+Дел 3:
+
+27. //
+
+28.
+git clone https://github.com/martinkorchovski/SI_2025_lab1_151020.git
+
+29.
+cd SI_2025_lab1_151020
+nano 233284.txt
+git add .
+git commit -m “Add file”
+
+30.
+git push origin master
+
+31. //
+
+32. //
+

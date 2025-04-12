@@ -1,0 +1,25 @@
+*   86203d6 on master: 5494af7 Implement third issue
+|\
+| * 17755a7 index on master: 5494af7 Implement third issue
+|/
+| *   6ecc880 (HEAD -> master, origin/master, origin/HEAD) Merge pull request #12 from martinkorchovski/5-filter-tasks-by-category
+| |\
+| | * c7556c9 Merge branch 'master' into 5-filter-tasks-by-category
+| |/|
+|/|/
+| *   76a82fd Merge pull request #11 from martinkorchovski/3-list-tasks-sorted-by-name
+| |\
+| | *   07ac385 (origin/3-list-tasks-sorted-by-name) Merge branch 'master' into 3-list-tasks-sorted-by-name
+| | |\
+| | |/
+| |/|
+| * |   2a46cb1 Merge pull request #10 from martinkorchovski/1-remove-a-task-by-name
+| |\ \
+| | * | ae5a364 (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) Implement the first issue
+| |/ /
+| | * 18fbe48 (3-list-tasks-sorted-by-name) Implement second issue
+| |/
+* / 5494af7 (origin/5-filter-tasks-by-category, 5-filter-tasks-by-category) Implement third issue
+|/
+* 0763706 Add started code
+* 2b24a49 Initial commit
